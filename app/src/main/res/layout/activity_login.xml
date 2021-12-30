@@ -48,7 +48,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="100dp"
-                app:cardBackgroundColor="@color/material_on_background_disabled"
+                app:cardBackgroundColor="@color/design_default_color_surface"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="0dp">
 
@@ -62,7 +62,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="UBMS"
-                        android:textColor="@color/white"
+                        android:textColor="@color/cardview_dark_background"
                         android:textSize="30sp"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +77,7 @@
                         android:layout_marginEnd="8dp"
                         android:gravity="center"
                         android:text="&quot;Utility Billing Management System&quot;"
-                        android:textColor="@color/white"
+                        android:textColor="@color/cardview_dark_background"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
