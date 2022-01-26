@@ -37,9 +37,6 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.ViewHolder> {
         return new ViewHolder(view);
 
 
-
-
-
     }
 
 
@@ -89,10 +86,7 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-
         private TextView billAmount,billDue;
-
-
 
 
         public ViewHolder(@NonNull View itemView) {
